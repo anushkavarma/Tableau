@@ -26,3 +26,16 @@ For this project, I used a dataset from Kaggle about video game sales, and anoth
 9. NA Sales area graph -- this is a different way to visualize the data and based on the area of each color, we can see not only the increase or decrease in North America video game sales, but also the genres that created the biggest contribution to the sales for those years. For example, in 2009, Sports contributed $71.47m in sales and has a large area of the graph for that year. For this graph, I used **marks** for genre (color and label).
 
 10. Starbucks location map -- using Starbucks directory data, I created a map using the longitude and latitude as the column and row, and postal code as the **mark** to create pinpoints of Starbucks locations. I then changed the mark to a **density map**, which shows that it is likely the metropolitan areas that have a greater density of Starbucks locations.
+
+# Employee Salary (Joins) Project
+
+## About the Project
+### Creating the Join
+The goal of this project was to use **joins** in Tableau.
+
+The data for Employee ID in the dataset was incomplete, in that the Job Title and Salary sheets did not have all employee data, therefore using an inner join on Employee ID would result in incomplete data. I found this out by doing a right join, which resulted in null data for one row in the table, employee ID 1010.
+
+Instead, I inner joined on employee ID for the Demographics and Job Title sheets (which had employee ID 1010 missing), but also joined on employee name for these tables, for which there was complete data. I also inner joined the Demographics table to the Salary table for a future visualization.
+
+### Visualization
+This visualization shows the employee name and their salary. For this, I created a bar chart **sorted** in descending order of salary, with a **mark** for color.
