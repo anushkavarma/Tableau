@@ -4,7 +4,7 @@ I created visualizations using different graphs and charts that involved underst
 I also used **Bins**, created **Calculated Fields**, and created visualizations for Video Game Sales, and I used **Joins** to look at complete data for my visualization of Employee Salary.
 
 ## About the Data
-For this project, I used a dataset from Kaggle about video game sales.
+For this project, I used a dataset from Kaggle about video game sales, and another Kaggle dataset for Starbucks locations.
 
 ## About the Project - Visualizations and Dashboard
 1. Global Sales by Year line graph -- this depicted the global sales of each genre of video games each year. Using **marks**, I added labels for the year where each genre reached its maximum sales (by selecting the Scope as line, so each genre would have a maximum value noted on the graph). I added a **filter** for Platform, so that if we wanted to see how each platform (eg. Wii or PlayStation) performed in each genre.
